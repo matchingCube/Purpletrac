@@ -1,0 +1,43 @@
+/*================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+@font-face {
+    font-family: "walkway-black";
+    src: url("../fonts/Walkway\ Black.ttf");
+}
+@font-face {
+    font-family: "walkway-bold";
+    src: url("../fonts/Walkway\ Bold.ttf");
+}
+.login-background {
+    background-image: url("../images/myPhotos/back_new.png");
+}
+.login-background-overlay {
+    background-color: rgba($color: #000, $alpha: 0.6);
+}
+.logo-on-back {
+    width: 70%;
+    min-width: 650px;
+    margin-bottom: 13rem;
+}
+.left-top-logo {
+    height: 48px !important;
+}
+.footer-link {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+}
+.my-font {
+    font-family: "walkway-black";
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+}
+.navbar-title {
+    font-family: "walkway-bold";
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+}
